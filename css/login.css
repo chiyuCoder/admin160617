@@ -1,0 +1,85 @@
+
+body{
+    background:url(../image/login/bg.jpg);
+    background-size:100% 100%;
+    min-height:670px;
+}
+
+.mb{
+    width:70%;min-width:1344px;/*100%=1920,70%=1344*/
+    margin:0 auto;padding-top:100px;
+}
+
+.lp{float:left;width:650px;margin-left:30px;}
+.lp .block1 p{
+    font-size:1.2em;line-height:1.5em;font-family: '楷体';
+}
+.lp .redBorder{border:5px solid #e54e3a;padding: 10px;margin:40px 0px;}
+.lp .redBlock{
+    background: #e54e3a;padding: 10px;color:white;    
+}
+.lp .redBlock p{
+    font-size:45px;line-height:2em;
+}
+.title{margin:50px 0;}
+.title h1{color:white;font-size:100px;}
+
+
+.rp{float:right;width:435px;}
+.rp .form{
+    width:400px;padding: 80px 20px 60px 20px;
+    background: #554f50; background:rgba(0,0,0,0.6);
+    border-radius: 30px;
+}
+.form h2{color:white;font:1.8em '黑体';line-height:2.2em;text-align: center;}
+.form form{color:#857881;}
+.form form .row{margin:20px 0;}
+.form form .row>div{float:left;}
+.form form .row .txtAli{
+    width:22%;color:#9e9195;margin-right:5px;line-height:40px;font-family: '黑体';
+}
+.form form .row .rowRP{width:70%;}
+.form form .row div input{
+    height:40px;border-radius:10px;background-color:#9e9195;color:white;
+    font-size: 20px;width:100%;text-indent: 40px;
+    background-image: url(../image/login/icobg.png);
+    background-repeat: no-repeat;
+}
+.form form .row div .usrn{background-position:10px 4px;}
+.form form .row div .psw{background-position: 10px -55px;}
+.form form .row div .gu{background-position: 10px -115px;}
+.form form .row div .chk{
+    width:80px;margin:0 10px;text-align: center;text-indent:0;
+    background-position: 10px 100px;
+}
+
+.btn{
+    padding:10px 20px;border-radius:20px;width:70%;
+    font-size:1.5em;letter-spacing: 0.5em;
+    background: #f4452e;background:linear-gradient(to top right,#f4452e,#f60);
+    color:white;cursor: pointer;
+}
+.btn:hover{
+    background: #f4452e;
+}
+
+.bp{position: fixed;bottom: 20px;left:0;width:100%;}
+.bp p{
+    font-size: 2em;text-decoration: underline;color:white;
+    font-family:'楷体';
+}
+
+@media screen and (max-width:1350px) and (min-width:1140px) {
+    .mb{width:100%;min-width:1140px;}
+}
+
+@media screen and (max-width:1140px) {
+    .mb{width:100%;min-width:340px;}
+    .lp{display: none;}
+    .rp{float: none;margin:0 auto;width:90%;}
+    .rp .form{width:80%;}
+}
+@media screen and (max-height:670px) {
+    .mb{padding-top: 40px;}
+    .bp{display: none;}
+}

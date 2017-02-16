@@ -1,0 +1,30 @@
+@font-face{
+    font-family:myFont;
+    src:url(../font/simyou_0.ttf);
+}
+
+*{margin:0 ;padding: 0;border:0;list-style:none;font-family:myFont;}
+a{text-decoration: none;}
+
+
+.full{height:100%;width: 100%;}
+
+
+.acb{zoom:1;}
+.acb:after{
+    content:"";display: block;height: 0;clear:both;
+}
+.fl{float:left;}
+.fr{float: right;}
+.cb{clear:both;}
+
+.txtAli{text-align: right;}
+.txtCenter{text-align: center;}
+
+.mbtn{
+    padding: 10px 15px;background: linear-gradient(to top right,#f06,#f60);margin:20px 10px;border-radius:10px;
+    cursor: pointer;
+}
+.mbtn:hover{
+    background: #f06;color:white;
+}

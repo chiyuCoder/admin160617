@@ -1,0 +1,23 @@
+.sheet{position: relative;padding: 25px 0;}
+.thead{line-height:25px;background: #f1f1f1;border:1px solid #e9e9e9;border-bottom: 1px solid #d0d0d0;position: absolute;top:0;left:0;}
+.thead div{float:left;text-overflow: ellipsis;}
+.sheet table {border-collapse: collapse;}
+.sheet table td{border:1px solid #e9e9e9;}
+
+#ifraWZLB{width:1420px;}
+#ifraHYLB{width:4380px;}
+#ifraWZLB .col1{width:50px;}
+#ifraWZLB .col2{width:330px;}
+#ifraWZLB .col3{width:145px;}
+#ifraWZLB .col4{width:225px;}
+#ifraWZLB .col5{width:225px;}
+#ifraWZLB .col6{width:100px;}
+#ifraWZLB .col7{width:225px;}
+#ifraWZLB .col8{width:100px;}
+
+
+.colt1{width:80px;}
+.colt2{width:145px;}
+.colt3{width:225px;}
+.colt4{width:330px;}
+.colt5{width:500px;}

@@ -1,0 +1,2021 @@
+<!doctype html>
+<html class="full">
+<head>
+    <title>administrator logs in</title>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <link href="css/common.css" type="text/css" rel="stylesheet"/>
+    <link href="css/admin.css" type="text/css" rel="stylesheet"/>
+</head>
+<body class="full">
+<div class="bigscreen acb">
+    <div class="lp">
+        <h2>交易管理平台</h2>
+        <div id="mainMenu" class="slc">
+            <div class="fl">主菜单</div>
+            <div class="toBWL"></div>
+        </div>
+        <div id="menu">
+            <dl>
+                <dt>
+                    <div class="flpic picMemb"></div>
+                    <div class="fl">会员列表</div>
+                    <div class="toLft"></div>
+                </dt>
+                <dd pname="hylb">会员列表</dd>
+                <dd pname="dshhylb">待审核会员列表</dd>
+                <dd pname="hyczrz">会员操作日志</dd>
+                <dd pname="zclb">众筹列表</dd>
+                <dd pname="tgxnbdzcz">通过虚拟币地址查找</dd>
+                <dd pname="tgjgczdd">通过价格查找订单</dd>
+            </dl>
+            <dl>
+                <dt>
+                    <div class="flpic picArt"></div>
+                    <div class="fl">文章管理</div>
+                    <div class="toLft"></div>
+                </dt>
+                <dd pname="wzlb">文章列表</dd>
+                <dd pname="wzlx">文章类型</dd>
+                <dd pname="sjwz">手机文章</dd>
+            </dl>
+            <dl>
+                <dt>
+                    <div class="flpic picXNB"></div>
+                    <div class="fl">虚拟币管理</div>
+                    <div class="toLft"></div>
+                </dt>
+                <dd pname="xnblxlb">虚拟币类型列表</dd>
+                <dd pname="rmbtxsxflb">人民币提现手续费列表</dd>
+                <dd pname="xnbkydzlb">虚拟币可用地址列表</dd>
+            </dl>
+            <dl>
+                <dt>
+                    <div class="flpic picZJ"></div>
+                    <div class="fl">资金管理</div>
+                    <div class="toLft"></div>
+                </dt>
+                <dd pname="xnbczjllb">虚拟币操作记录列表</dd>
+                <dd pname="xnbczlb">虚拟币充值列表</dd>
+                <dd pname="dshxnbtxlb">待审核虚拟币提现列表</dd>
+                <dd pname="rmbczjllb">人民币操作记录列表</dd>
+                <dd pname="dshrmbczlb">待审核人民币充值列表</dd>
+                <dd pname="dshrmbtxlb">待审核人民币提现列表</dd>
+                <dd pname="hyzjlb">会员资金列表</dd>
+                <dd pname="hyxnblb">会员虚拟币列表</dd>
+                <dd pname="rmbsgczlb">人民币手工充值列表</dd>
+                <dd pname="xnbsgczlb">虚拟币手工充值</dd>
+                <dd pname="wtjylb">委托交易列表</dd>
+            </dl>
+            <dl>
+                <dt>
+                    <div class="flpic picTW"></div>
+                    <div class="fl">提问管理</div>
+                    <div class="toLft"></div>
+                </dt>
+                <dd pname="twjllb">提问记录列表</dd>
+                <dd pname="dhftwlb">待回复提问列表</dd>
+            </dl>
+            <dl>
+                <dt>
+                    <div class="flpic picBB"></div>
+                    <div class="fl">报表统计</div>
+                    <div class="toLft"></div>
+                </dt>
+                <dd pname="hyzctjb">会员注册统计表</dd>
+                <dd pname="rmbcztjb">人民币充值统计表</dd>
+                <dd pname="rmbtxtjb">人民币提现统计表</dd>
+                <dd pname="xnbcztjb">虚拟币充值统计表</dd>
+                <dd pname="xnbtxtjb">虚拟币提现统计表</dd>
+                <dd pname="zhtjb">综合统计表</dd>
+            </dl>
+            <dl>
+                <dt>
+                    <div class="flpic picXT"></div>
+                    <div class="fl">系统管理</div>
+                    <div class="toLft"></div>
+                </dt>
+                <dd pname="yqljlb">友情链接列表</dd>
+                <dd pname="xtcslb">系统参数列表</dd>
+                <dd pname="yhzhlb">银行账户列表</dd>
+                <dd pname="gywm">关于我们</dd>
+                <dd pname="qxlb">权限列表</dd>
+                <dd pname="jslb">角色列表</dd>
+                <dd pname="glylb">管理员列表</dd>
+                <dd pname="xzgllb">限制管理列表</dd>
+            </dl>
+            <dl>
+                <dt>
+                    <div class="flpic picFH"></div>
+                    <div class="fl">分红奖励</div>
+                    <div class="toLft"></div>
+                </dt>
+                <dd pname="fenhong">分红</dd>
+                <dd pname="yqjl">奖励</dd>
+            </dl>
+        </div>
+    </div>
+    <div class="rp">
+        <div class="topCol acb">
+            <div id="fr">            
+                <span class="fakeA">网络信息设置</span>
+                <span>/</span>
+                <span class="fakeA">修改密码</span>
+                <span>/</span>
+                <span class="fakeA">退出</span>
+            </div>
+        </div>
+        <div id="wangluo" class="wlxxsz">
+            <div class="wlbody">
+                <div class="bodyTitle acb">
+                    <div class="fl">网络信息设置</div>
+                    <div class="fr acb">
+                        <div class="fl minWin"></div>
+                        <div class="fl maxWin"></div>
+                        <div class="fl clsWin"></div>
+                    </div>
+                </div>
+                <div class="bodyArticle">
+                    <div class="bodyFrame">
+                        <div class="acb">
+                            <div class="name">网站标题:</div>
+                            <div class="fl">
+                                <textarea>
+                                </textarea>
+                            </div>
+                        </div>
+                        <div class="acb">
+                            <div class="name">网站关键词:</div>
+                            <div class="fl">
+                                <textarea>
+                                </textarea>
+                            </div>
+                        </div>
+                        <div class="acb">
+                            <div class="name">网站描述:</div>
+                            <div class="fl">
+                                <textarea>
+                                </textarea>
+                            </div>
+                        </div>
+                        <div class="acb">
+                            <div class="name">CopyRight:</div>
+                            <div class="fl">
+                                <textarea>
+                                </textarea>
+                            </div>
+                        </div>                        
+                    </div>
+                </div>
+                <div class="last acb">
+                    <div class="fr">
+                        <input name="save" type="button" value="保存" class="btn">
+                        <input name="cancel" type="button" value="清除" class="btn"> 
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="xgmima" class="wlxxsz">
+            <div class="wlbody">
+                <div class="bodyTitle acb">
+                    <div class="fl">修改密码</div>
+                    <div class="fr acb">
+                        <div class="fl minWin"></div>
+                        <div class="fl maxWin"></div>
+                        <div class="fl clsWin"></div>
+                    </div>
+                </div>
+                <div class="bodyArticle">
+                    <div class="bodyFrame">
+                        <div class="acb">
+                            <div class="name">原密码：</div>
+                            <div class="fl">
+                                <input type="password" name="yuanmima">
+                            </div>
+                        </div>
+                        <div class="acb">
+                            <div class="name">新密码：</div>
+                            <div class="fl">
+                                <input type="password" name="xinmima">
+                            </div>
+                        </div>
+                        <div class="acb">
+                            <div class="name">确认密码：</div>
+                            <div class="fl">
+                                <input type="password" name="qurenmima">
+                            </div>
+                        </div>             
+                    </div>
+                </div>                
+                <div class="last acb">
+                    <div class="fr">
+                        <input name="save" type="button" value="保存" class="btn">
+                        <input name="cancel" type="button" value="清除" class="btn"> 
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="itemRow acb">
+            <div class="blank">
+                <ul class="items">
+                    <li class="item" pname="myPage" onclick="showItem(this)">
+                       <div class="avatar"></div>
+                       <div class="title">我的主页</div>
+                    </li>
+                </ul>
+            </div>
+            <div class="toBot">
+                <div id="iTtl">
+                    <ul>
+                        <li pname="myPage" onclick='iTtlLi(this)'>我的主页</li>
+                    </ul>
+                </div>
+            </div>            
+        </div>
+        <!--Begin:已选项目页面 *id为项目名称拼音简写*-->
+        <!--B:我的主页--->
+        <div id="myPage" class="mainPage">
+            <div class="info">
+                <p>
+                    <span>欢迎管理员</span>
+                    <span class="logUsr">XXX</span>
+                    <span>登陆,登录时间:</span>
+                    <span class="logTime">2016年6月17日17:09:48</span>
+                </p>
+            </div>
+            <div class="content">
+                <img class="full" src="image/admind/adminp11.jpg" alt="#myPage .content image/admind/adminp11.jpg">
+            </div>
+        </div>
+        <!--B:会员列表--->
+        <div id="hylb" class="mainPage">
+            <div class="pRow">
+                <div class="fl">
+                    会员信息:<input class="longInput" type="text" name="会员信息" />
+                </div>
+                <div class="fl">
+                    UID:<input class="shortInput" type="text" name="uid" />
+                </div>
+                <div class="fl">
+                    会员类型：
+                    <select class="shortInput">
+                        <option value="all" selected="selected">全部</option>  
+                    </select>
+                </div>
+                <div class="chaxun">
+                    查询
+                </div>
+            </div>
+            <div class="pRow">
+                <div class="mingling">
+                    <div class="mlIcon jinyong"></div>
+                    <div>禁用</div>
+                </div>
+                <div class="mingling">
+                    <div class="mlIcon quxiaojinyong"></div>
+                    <div>取消禁用</div>
+                </div>
+                <div class="mingling">
+                    <div class="mlIcon chongshemima"></div>
+                    <div>重设密码</div>
+                </div>
+                <div class="mingling">
+                    <div class="mlIcon csjiaoyimima"></div>
+                    <div>重设交易密码</div>
+                </div>
+                <div class="mingling">
+                    <div class="mlIcon csgoogle"></div>
+                    <div>重设google</div>
+                </div>
+                <div class="mingling">
+                    <div class="mlIcon shangjiahao"></div>
+                    <div>设置商家号</div>
+                </div>
+                <div class="mingling">
+                    <div class="mlIcon daochu"></div>
+                    <div>导出</div>
+                </div>                
+            </div>
+            <div class="mPA">
+                <iframe src="mydata/ifraHYLB.html"></iframe>
+                <div class="tfooter acb">
+                    <div class="fl">
+                        总共<span>XX</span>条
+                    </div>
+                    <div class="fr acb">
+                        <div class="fl">首页</div>
+                        <div class="fl">上一页</div>
+                        <div class="fl">1</div>
+                        <div class="fl">下一页</div>
+                        <div class="fl">尾页</div>
+                        <div class="fl">
+                            <input type="text" value="1" name="yeshu">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--B:待审核会员列表--->
+        <div id="dshhylb" class="mainPage">
+            <div class="pRow">
+                <div class="fl">
+                    会员信息:
+                    <input type="text" name="会员信息" class="longInput">
+                </div>
+                <div class="chaxun">查询</div>
+            </div>
+            <div class="pRow">
+                <div class="mingling">
+                    <div class="mlIcon shenhe"></div>
+                    <div>审核</div>
+                </div>
+                <div class="mingling">
+                    <div class="mlIcon shenhetongguo"></div>
+                    <div>审核通过</div>
+                </div>
+                <div class="mingling">
+                    <div class="mlIcon shenhebutongguo"></div>
+                    <div>审核不通过</div><!--自耕-->
+                </div>
+            </div>
+            <div class="mPA">
+                <iframe src="mydata/ifraDSHHYLB.html"></iframe>
+                <div class="tfooter acb">
+                    <div class="fl">
+                        总共<span>XX</span>条
+                    </div>
+                    <div class="fr acb">
+                        <div class="fl">首页</div>
+                        <div class="fl">上一页</div>
+                        <div class="fl">1</div>
+                        <div class="fl">下一页</div>
+                        <div class="fl">尾页</div>
+                        <div class="fl">
+                            <input type="text" value="1" name="yeshu">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--B:会员操作日志--->
+        <div id="hyczrz" class="mainPage">
+            <div class="pRow">
+                <div class="fl">
+                    关键词:<input type="text" name="" class=""/>
+                    <span class="small">关键词、标题</span>
+                </div>
+                <div class="chaxun">查询</div>
+            </div>
+            <div class="pRow">
+                <div class="mingling">
+                    <div class="mlIcon"></div>
+                    <div></div>
+                </div>
+            </div>
+            <div class="mPA">
+                <iframe src="mydata/ifraHYCZRZ.html"></iframe>
+                <div class="tfooter acb">
+                    <div class="fl">
+                        总共<span>XX</span>条
+                    </div>
+                    <div class="fr acb">
+                        <div class="fl">首页</div>
+                        <div class="fl">上一页</div>
+                        <div class="fl">1</div>
+                        <div class="fl">1</div>
+                        <div class="fl">下一页</div>
+                        <div class="fl">尾页</div>
+                        <div class="fl">
+                            <input type="text" value="1" name="yeshu">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--B:众筹列表--->
+        <div id="zclb" class="mainPage">
+            <div class="pRow">
+                <div class="fl">
+                    虚拟币类型：
+                    <select class="shortInput">
+                        <option value="all" selected="selected">全部</option>  
+                    </select>
+                </div>
+                 <div class="chaxun">查询</div>
+            </div>
+            <div class="pRow">
+                <div class="mingling">
+                    <div class="mlIcon xinzeng"></div>
+                    <div>新增</div>
+                </div>
+                <div class="mingling">
+                    <div class="mlIcon xiugai"></div>
+                    <div>修改</div>
+                </div>
+                <div class="mingling">
+                    <div class="mlIcon shanchu"></div>
+                    <div>删除</div>
+                </div>
+                <div class="mingling">
+                    <div class="mlIcon chakan"></div>
+                    <div>查看众筹记录</div>
+                </div>                
+            </div>
+            <div class="mPA">
+                <iframe src="mydata/ifraHYCZRZ.html"></iframe>
+                <div class="tfooter acb">
+                    <div class="fl">
+                        总共<span>XX</span>条
+                    </div>
+                    <div class="fr acb">
+                        <div class="fl">首页</div>
+                        <div class="fl">上一页</div>
+                        <div class="fl">1</div>
+                        <div class="fl">下一页</div>
+                        <div class="fl">尾页</div>
+                        <div class="fl">
+                            <input type="text" value="1" name="yeshu">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--B:通过虚拟币地址充值--->
+        <div id="tgxnbdzcz" class="mainPage">
+            <div class="pRow">
+                <div class="fl">
+                    标题：<input type="text" name="" class=""/>
+                    <span class="small">(充值地址、提现地址)</span>
+                </div>
+                <div class="fl">
+                    虚拟币类型：
+                    <select class="shortInput">
+                        <option value="all" selected="selected">全部</option>  
+                    </select>
+                </div>
+                <div class="chaxun">查询</div>
+            </div>
+            <div class="pRow">
+                <div class="mingling">
+                    <div class="mlIcon"></div>
+                    <div></div>
+                </div>
+            </div>
+            <div class="mPA">
+                <iframe src="mydata/ifraWZLB.html"></iframe>
+                <div class="tfooter acb">
+                    <div class="fl">
+                        总共<span>XX</span>条
+                    </div>
+                    <div class="fr acb">
+                        <div class="fl">首页</div>
+                        <div class="fl">上一页</div>
+                        <div class="fl">1</div>
+                        <div class="fl">下一页</div>
+                        <div class="fl">尾页</div>
+                        <div class="fl">
+                            <input type="text" value="1" name="yeshu">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--B:通过价格查找订单--->
+        <div id="tgjgczdd" class="mainPage">
+            <div class="pRow">
+                <div class="fl">
+                    会员信息<input type="text" name="会员信息" class="longInput"/>
+                </div>
+                <div class="fl">
+                    虚拟币类型：
+                    <select class="shortInput">
+                        <option value="all" selected="selected">全部</option>  
+                    </select>
+                </div>
+                <div class="fl">
+                    日期<input type="text" name="日期" class="shortInput"/>
+                </div>
+                 <div class="fl">
+                    价格<input type="text" name="价格" class="shortInput"/>
+                </div>
+                 <div class="fl">
+                    状态：
+                    <select class="shortInput">
+                        <option value="all" selected="selected">全部</option>  
+                    </select>
+                </div>
+                 <div class="fl">
+                    类型：
+                    <select class="shortInput">
+                        <option value="all" selected="selected">全部</option>  
+                    </select>
+                </div>
+                <div class="chaxun">查询</div>
+            </div>
+            <div class="pRow">
+                <div class="mingling">
+                    <div class="mlIcon"></div>
+                    <div></div>
+                </div>
+            </div>
+            <div class="mPA">
+                <iframe src="mydata/ifraWZLB.html"></iframe>
+                <div class="tfooter acb">
+                    <div class="fl">
+                        总共<span>XX</span>条
+                    </div>
+                    <div class="fr acb">
+                        <div class="fl">首页</div>
+                        <div class="fl">上一页</div>
+                        <div class="fl">1</div>
+                        <div class="fl">下一页</div>
+                        <div class="fl">尾页</div>
+                        <div class="fl">
+                            <input type="text" value="1" name="yeshu">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--B:文章列表--->
+        <div id="wzlb" class="mainPage">
+            <div class="pRow">
+                <div class="fl">
+                    关键词<input type="text" name="关键词" class="
+                        shortInput"/>
+                    <span class="small">标题、关键词</span>
+                </div>
+                <div class="fl">
+                    文章类型：
+                    <select class="shortInput">
+                        <option value="all" selected="selected">全部</option>  
+                    </select>
+                </div>
+                <div class="chaxun">查询</div>
+            </div>
+            <div class="pRow">
+                <div class="mingling">
+                    <div class="mlIcon xinzeng"></div>
+                    <div>新增</div>
+                </div>
+                <div class="mingling">
+                    <div class="mlIcon shanchu"></div>
+                    <div>删除</div>
+                </div>
+                <div class="mingling">
+                    <div class="mlIcon xiugai"></div>
+                    <div>修改</div>
+                </div>
+            </div>
+            <div class="mPA">
+                <iframe src="mydata/ifraWZLB.html"></iframe>
+                <div class="tfooter acb">
+                    <div class="fl">
+                        总共<span>XX</span>条
+                    </div>
+                    <div class="fr acb">
+                        <div class="fl">首页</div>
+                        <div class="fl">上一页</div>
+                        <div class="fl">1</div>
+                        <div class="fl">下一页</div>
+                        <div class="fl">尾页</div>
+                        <div class="fl">
+                            <input type="text" value="1" name="yeshu">
+                        </div>
+                    </div>
+                </div>
+            </div>            
+        </div>
+        <!--B:文章类型--->
+        <div id="wzlx" class="mainPage">
+            <div class="pRow">
+                <div class="fl">
+                    关键词<input type="text" name="关键词" class="shortInput"/>
+                    <span class="small">名称、关键词、描述</span>
+                </div>
+                <div class="fl">
+                    文章类型：
+                    <select class="shortInput">
+                        <option value="all" selected="selected">全部</option>  
+                    </select>
+                </div>
+                <div class="chaxun">查询</div>
+            </div>
+            <div class="pRow">
+                <div class="mingling">
+                    <div class="mlIcon xiugai"></div>
+                    <div>修改</div>
+                </div>
+            </div>
+            <div class="mPA">
+                <iframe src="mydata/ifraWZLB.html"></iframe>
+                <div class="tfooter acb">
+                    <div class="fl">
+                        总共<span>XX</span>条
+                    </div>
+                    <div class="fr acb">
+                        <div class="fl">首页</div>
+                        <div class="fl">上一页</div>
+                        <div class="fl">1</div>
+                        <div class="fl">下一页</div>
+                        <div class="fl">尾页</div>
+                        <div class="fl">
+                            <input type="text" value="1" name="yeshu">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--B:手机文章--->
+        <div id="sjwz" class="mainPage">
+            <div class="pRow">
+                <div class="fl">
+                    关键词<input type="text" name="关键词" class="shortInput"/>
+                    <span class="small">标题、关键词</span>
+                </div>
+                <div class="chaxun">查询</div>
+            </div>
+            <div class="pRow">
+                <div class="mingling">
+                    <div class="mlIcon xinzeng"></div>
+                    <div>新增</div>
+                </div>
+                <div class="mingling">
+                    <div class="mlIcon shanchu"></div>
+                    <div>删除</div>
+                </div>
+                <div class="mingling">
+                    <div class="mlIcon xiugai"></div>
+                    <div>修改</div>
+                </div>
+            </div>
+            <div class="mPA">
+                <iframe src="mydata/ifraWZLB.html"></iframe>
+                <div class="tfooter acb">
+                    <div class="fl">
+                        总共<span>XX</span>条
+                    </div>
+                    <div class="fr acb">
+                        <div class="fl">首页</div>
+                        <div class="fl">上一页</div>
+                        <div class="fl">1</div>
+                        <div class="fl">下一页</div>
+                        <div class="fl">尾页</div>
+                        <div class="fl">
+                            <input type="text" value="1" name="yeshu">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--B:虚拟币类型列表--->
+        <div id="xnblxlb" class="mainPage">
+            <div class="pRow">
+                <div class="fl">
+                    关键词<input type="text" name="关键词" class="shortInput"/>
+                    <span class="small">(名称、简称、描述)</span>
+                </div>
+                <div class="chaxun">查询</div>
+            </div>
+            <div class="pRow">
+                <div class="mingling">
+                    <div class="mlIcon xinzeng"></div>
+                    <div>新增</div>
+                </div>
+                <div class="mingling">
+                    <div class="mlIcon jinyong"></div>
+                    <div>禁用</div>
+                </div>
+                <div class="mingling">
+                    <div class="mlIcon qiyong"></div>
+                    <div>启用</div>
+                </div>
+                <div class="mingling">
+                    <div class="mlIcon xiugai"></div>
+                    <div>修改</div>
+                </div>
+                <div class="mingling">
+                    <div class="mlIcon xiugai"></div>
+                    <div>修改手续费</div>
+                </div>
+                <div class="mingling">
+                    <div class="mlIcon ceshiqianbao"></div>
+                    <div>测试钱包</div>
+                </div>
+                <div class="mingling">
+                    <div class="mlIcon scqianbaodizhi"></div>
+                    <div>生成钱包地址</div>
+                </div>
+                <div class="mingling">
+                    <div class="mlIcon tingpan"></div>
+                    <div>停盘</div>
+                </div>
+                <div class="mingling">
+                    <div class="mlIcon kaipan"></div>
+                    <div>开盘</div>
+                </div>                
+            </div>
+            <div class="mPA">
+                <iframe src="mydata/ifraWZLB.html"></iframe>
+                <div class="tfooter acb">
+                    <div class="fl">
+                        总共<span>XX</span>条
+                    </div>
+                    <div class="fr acb">
+                        <div class="fl">首页</div>
+                        <div class="fl">上一页</div>
+                        <div class="fl">1</div>
+                        <div class="fl">下一页</div>
+                        <div class="fl">尾页</div>
+                        <div class="fl">
+                            <input type="text" value="1" name="yeshu">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--B:人民币提现手续费列表--->
+        <div id="rmbtxsxflb" class="mainPage">
+            <div class="pRow">
+                <div class="fl">
+                    会员等级<input type="text" name="会员等级" class="longInput"/>
+                </div>
+                <div class="chaxun">查询</div>
+            </div>
+            <div class="pRow">
+                <div class="mingling">
+                    <div class="mlIcon xiugai"></div>
+                    <div>修改</div>
+                </div>
+            </div>
+            <div class="mPA">
+                <iframe src="mydata/ifraWZLB.html"></iframe>
+                <div class="tfooter acb">
+                    <div class="fl">
+                        总共<span>XX</span>条
+                    </div>
+                    <div class="fr acb">
+                        <div class="fl">首页</div>
+                        <div class="fl">上一页</div>
+                        <div class="fl">1</div>
+                        <div class="fl">下一页</div>
+                        <div class="fl">尾页</div>
+                        <div class="fl">
+                            <input type="text" value="1" name="yeshu">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--B:虚拟币可用地址列表--->
+        <div id="xnbkydzlb" class="mainPage">
+            <div class="pRow">
+                <div class="fl">
+                    虚拟币名称<input type="text" name="虚拟币名称" class="longInput"/>
+                </div>
+                <div class="chaxun">查询</div>
+            </div>
+            <div class="pRow">
+                <div class="mingling">
+                    <div class="mlIcon"></div>
+                    <div></div>
+                </div>
+            </div>
+            <div class="mPA">
+                <iframe src="mydata/ifraWZLB.html"></iframe>
+                <div class="tfooter acb">
+                    <div class="fl">
+                        总共<span>XX</span>条
+                    </div>
+                    <div class="fr acb">
+                        <div class="fl">首页</div>
+                        <div class="fl">上一页</div>
+                        <div class="fl">下一页</div>
+                        <div class="fl">尾页</div>
+                        <div class="fl">
+                            <input type="text" value="1" name="yeshu">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--B:虚拟币充值记录列表--->
+        <div id="xnbczjllb" class="mainPage">
+            <div class="pRow">
+                <div class="fl">
+                    标题<input type="text" name="标题" class="longInput"/>
+                    <span class="small">(会员信息、充值地址)</span>
+                </div>
+                <div class="fl">
+                    虚拟币类型：
+                    <select class="shortInput">
+                        <option value="all">全部</option>
+                    </select>
+                </div>
+                <div class="chaxun">查询</div>
+            </div>
+            <div class="pRow">
+                <div class="mingling">
+                    <div class="mlIcon daochu"></div>
+                    <div>导出EXCEL</div>
+                </div>
+            </div>
+            <div class="mPA">
+                <iframe src="mydata/ifraWZLB.html"></iframe>
+                <div class="tfooter acb">
+                    <div class="fl">
+                        总共<span>XX</span>条
+                    </div>
+                    <div class="fr acb">
+                        <div class="fl">首页</div>
+                        <div class="fl">上一页</div>
+                        <div class="fl">1</div>
+                        <div class="fl">下一页</div>
+                        <div class="fl">尾页</div>
+                        <div class="fl">
+                            <input type="text" value="1" name="yeshu">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--B:虚拟币充值列表--->
+        <div id="xnbczlb" class="mainPage">
+            <div class="pRow">
+                <div class="fl">
+                    标题<input type="text" name="标题" class="longInput"/>
+                    <span class="small">(会员信息、充值地址)</span>
+                </div>
+                <div class="fl">
+                    虚拟币类型：
+                    <select class="shortInput">
+                        <option value="all">全部</option>
+                    </select>
+                </div>
+                <div class="chaxun">查询</div>
+            </div>
+            <div class="pRow">
+                <div class="mingling">
+                    <div class="mlIcon"></div>
+                    <div></div>
+                </div>
+            </div>
+            <div class="mPA">
+                <iframe src="mydata/ifraWZLB.html"></iframe>
+                <div class="tfooter acb">
+                    <div class="fl">
+                        总共<span>XX</span>条
+                    </div>
+                    <div class="fr acb">
+                        <div class="fl">首页</div>
+                        <div class="fl">上一页</div>
+                        <div class="fl">1</div>
+                        <div class="fl">下一页</div>
+                        <div class="fl">尾页</div>
+                        <div class="fl">
+                            <input type="text" value="1" name="yeshu">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--B:待审核虚拟币提现列表--->
+        <div id="dshxnbtxlb" class="mainPage">
+            <div class="pRow">
+                <div class="fl">
+                    标题<input type="text" name="标题" class="longInput"/>
+                    <span class="small">(会员信息、充值地址)</span>
+                </div>
+                <div class="fl">
+                    虚拟币类型：
+                    <select class="shortInput">
+                        <option value="all">全部</option>
+                    </select>
+                </div>
+                <div class="chaxun">查询</div>
+            </div>
+            <div class="pRow">
+                <div class="mingling">
+                    <div class="mlIcon shenhe"></div>
+                    <div>审核</div>
+                </div>
+                <div class="mingling">
+                    <div class="mlIcon suoding"></div>
+                    <div>锁定</div>
+                </div>
+                <div class="mingling">
+                    <div class="mlIcon quxiaosuoding"></div>
+                    <div>取消锁定</div>
+                </div>
+                <div class="mingling">
+                    <div class="mlIcon quxiao"></div>
+                    <div>取消提现</div>
+                </div>                
+            </div>
+            <div class="mPA">
+                <iframe src="mydata/ifraWZLB.html"></iframe>
+                <div class="tfooter acb">
+                    <div class="fl">
+                        总共<span>XX</span>条
+                    </div>
+                    <div class="fr acb">
+                        <div class="fl">首页</div>
+                        <div class="fl">上一页</div>
+                        <div class="fl">1</div>
+                        <div class="fl">下一页</div>
+                        <div class="fl">尾页</div>
+                        <div class="fl">
+                            <input type="text" value="1" name="yeshu">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--B:人民币充值就列表--->
+        <div id="rmbczjllb" class="mainPage">
+            <div class="pRow">
+                <div class="fl">
+                    关键词<input type="text" name="关键词" class="longInput"/>
+                    <span class="small">(会员名称、手机、银行账户、金额、收款人)</span>
+                </div>
+                <div class="fl">
+                    充值ID<input type="text" name="充值ID" class="shortInput"/>
+                </div>
+                <div class="fl">
+                    状态：
+                    <select class="shortInput">
+                        <option value="all">全部</option>
+                    </select>
+                </div>
+                <div class="fl">
+                    日期<input type="text" name="日期" class="shortInput"/>
+                </div>                
+                <div class="chaxun">查询</div>
+            </div>
+            <div class="pRow">
+                <div class="mingling">
+                    <div class="mlIcon daochu"></div>
+                    <div>导出EXCEL</div>
+                </div>
+            </div>
+            <div class="mPA">
+                <iframe src="mydata/ifraWZLB.html"></iframe>
+                <div class="tfooter acb">
+                    <div class="fl">
+                        总共<span>XX</span>条
+                    </div>
+                    <div class="fr acb">
+                        <div class="fl">首页</div>
+                        <div class="fl">上一页</div>
+                        <div class="fl">1</div>
+                        <div class="fl">下一页</div>
+                        <div class="fl">尾页</div>
+                        <div class="fl">
+                            <input type="text" value="1" name="yeshu">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--B:待审核人民币充值列表--->
+        <div id="dshrmbczlb" class="mainPage">
+            <div class="pRow">
+               <div class="fl">
+                    关键词<input type="text" name="关键词" class="longInput"/>
+                    <span class="small">(会员名称、手机、银行账户、金额、收款人)</span>
+                </div>
+                <div class="fl">
+                    充值ID<input type="text" name="充值ID" class="shortInput"/>
+                </div>
+                <div class="fl">
+                    日期<input type="text" name="日期" class="shortInput"/>
+                </div>    
+                <div class="chaxun">查询</div>
+            </div>
+            <div class="pRow">
+                <div class="mingling">
+                    <div class="mlIcon shenhe"></div>
+                    <div>审核</div>
+                </div>
+                <div class="mingling">
+                    <div class="mlIcon xiugai"></div>
+                    <div>修改充值金额</div>
+                </div>
+                <div class="mingling">
+                    <div class="mlIcon quxiao"></div>
+                    <div>取消充值</div>
+                </div>                
+            </div>
+            <div class="mPA">
+                <iframe src="mydata/ifraWZLB.html"></iframe>
+                <div class="tfooter acb">
+                    <div class="fl">
+                        总共<span>XX</span>条
+                    </div>
+                    <div class="fr acb">
+                        <div class="fl">首页</div>
+                        <div class="fl">上一页</div>
+                        <div class="fl">1</div>
+                        <div class="fl">下一页</div>
+                        <div class="fl">尾页</div>
+                        <div class="fl">
+                            <input type="text" value="1" name="yeshu">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--B:待审核人民币提现列表--->
+        <div id="dshrmbtxlb" class="mainPage">
+            <div class="pRow">
+                <div class="fl">
+                    关键词<input type="text" name="关键词" class="longInput"/>
+                    <span class="small">(会员名称、手机、银行账户、金额、收款人)</span>
+                </div>
+                <div class="fl">
+                    充值ID<input type="text" name="充值ID" class="shortInput"/>
+                </div>
+                <div class="fl">
+                    日期<input type="text" name="日期" class="shortInput"/>
+                </div>    
+                <div class="chaxun">查询</div>
+            </div>
+            <div class="pRow">
+                <div class="mingling">
+                    <div class="mlIcon shenhe"></div>
+                    <div>审核</div>
+                </div>
+                <div class="mingling">
+                    <div class="mlIcon suoding"></div>
+                    <div>锁定</div>
+                </div>
+                <div class="mingling">
+                    <div class="mlIcon quxiaosuoding"></div>
+                    <div>取消锁定</div>
+                </div>
+                <div class="mingling">
+                    <div class="mlIcon quxiao"></div>
+                    <div>取消提现</div>
+                </div>
+                <div class="mingling">
+                    <div class="mlIcon suoding"></div>
+                    <div>全部锁定</div>
+                </div>
+                <div class="mingling">
+                    <div class="mlIcon chakan"></div>
+                    <div>查看会员资金情况</div>
+                </div>
+                <div class="mingling">
+                    <div class="mlIcon huiyuanxinxi"></div>
+                    <div>查看会员信息</div>
+                </div>
+                <div class="mingling">
+                    <div class="mlIcon daochu"></div>
+                    <div>导出EXCEL</div>
+                </div>                
+            </div>
+            <div class="mPA">
+                <iframe src="mydata/ifraWZLB.html"></iframe>
+                <div class="tfooter acb">
+                    <div class="fl">
+                        总共<span>XX</span>条
+                    </div>
+                    <div class="fr acb">
+                        <div class="fl">首页</div>
+                        <div class="fl">上一页</div>
+                        <div class="fl">1</div>
+                        <div class="fl">下一页</div>
+                        <div class="fl">尾页</div>
+                        <div class="fl">
+                            <input type="text" value="1" name="yeshu">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--B:会员资金列表--->
+        <div id="hyzjlb" class="mainPage">
+            <div class="pRow">
+                <div class="fl">
+                    会员信息<input type="text" name="会员信息" class="longInput"/>
+                </div>
+                <div class="chaxun">查询</div>
+            </div>
+            <div class="pRow">
+                <div class="mingling">
+                    <div class="mlIcon"></div>
+                    <div></div>
+                </div>
+            </div>
+            <div class="mPA">
+                <iframe src="mydata/ifraWZLB.html"></iframe>
+                <div class="tfooter acb">
+                    <div class="fl">
+                        总共<span>XX</span>条
+                    </div>
+                    <div class="fr acb">
+                        <div class="fl">首页</div>
+                        <div class="fl">上一页</div>
+                        <div class="fl">1</div>
+                        <div class="fl">下一页</div>
+                        <div class="fl">尾页</div>
+                        <div class="fl">
+                            <input type="text" value="1" name="yeshu">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--B:会员虚拟币列表--->
+        <div id="hyxnblb" class="mainPage">
+            <div class="pRow">
+                <div class="fl">
+                    会员信息<input type="text" name="会员信息" class="longInput"/>
+                </div>
+                <div class="fl">
+                    虚拟币类型
+                    <select class="shortInput">
+                        <option value="all">全部</option>
+                    </select>
+                </div>
+                <div class="chaxun">查询</div>
+            </div>
+            <div class="pRow">
+                <div class="mingling">
+                    <div class="mlIcon daochu"></div>
+                    <div>导出EXCEL</div>
+                </div>
+            </div>
+            <div class="mPA">
+                <iframe src="mydata/ifraWZLB.html"></iframe>
+                <div class="tfooter acb">
+                    <div class="fl">
+                        总共<span>XX</span>条
+                    </div>
+                    <div class="fr acb">
+                        <div class="fl">首页</div>
+                        <div class="fl">上一页</div>
+                        <div class="fl">1</div>
+                        <div class="fl">下一页</div>
+                        <div class="fl">尾页</div>
+                        <div class="fl">
+                            <input type="text" value="1" name="yeshu">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--B:人民币手工充值列表--->
+        <div id="rmbsgczlb" class="mainPage">
+            <div class="pRow">
+                <div class="fl">
+                    关键词<input type="text" name="关键词" class="longInput"/>
+                    <span class="small">(审核信息、审核人)</span>
+                </div>
+                <div class="fl">
+                    日期<input type="text" name="日期" class="shortInput"/>
+                </div>
+                <div class="chaxun">查询</div>
+            </div>
+            <div class="pRow">
+                <div class="mingling">
+                    <div class="mlIcon xinzeng"></div>
+                    <div>新增</div>
+                </div>
+                 <div class="mingling">
+                    <div class="mlIcon shanchu"></div>
+                    <div>删除</div>
+                </div>
+                 <div class="mingling">
+                    <div class="mlIcon shenhe"></div>
+                    <div>审核</div>
+                </div>                
+            </div>
+            <div class="mPA">
+                <iframe src="mydata/ifraWZLB.html"></iframe>
+                <div class="tfooter acb">
+                    <div class="fl">
+                        总共<span>XX</span>条
+                    </div>
+                    <div class="fr acb">
+                        <div class="fl">首页</div>
+                        <div class="fl">上一页</div>
+                        <div class="fl">1</div>
+                        <div class="fl">下一页</div>
+                        <div class="fl">尾页</div>
+                        <div class="fl">
+                            <input type="text" value="1" name="yeshu">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--B:虚拟币手工充值列表--->
+        <div id="xnbsgczlb" class="mainPage">
+            <div class="pRow">
+                <div class="fl">
+                    关键词<input type="text" name="关键词" class="longInput"/>
+                    <span class="small">(审核信息、审核人)</span>
+                </div>
+                <div class="fl">
+                    日期<input type="text" name="日期" class="shortInput"/>
+                </div>
+                <div class="chaxun">查询</div>
+            </div>
+            <div class="pRow">
+                <div class="mingling">
+                    <div class="mlIcon xinzeng"></div>
+                    <div>新增</div>
+                </div>
+                 <div class="mingling">
+                    <div class="mlIcon shanchu"></div>
+                    <div>删除</div>
+                </div>
+                 <div class="mingling">
+                    <div class="mlIcon shenhe"></div>
+                    <div>审核</div>
+                </div>               
+                <div class="mingling">
+                    <div class="mlIcon fafangdongjie"></div>
+                    <div>发放冻结</div>
+                </div>
+            </div>
+            <div class="mPA">
+                <iframe src="mydata/ifraWZLB.html"></iframe>
+                <div class="tfooter acb">
+                    <div class="fl">
+                        总共<span>XX</span>条
+                    </div>
+                    <div class="fr acb">
+                        <div class="fl">首页</div>
+                        <div class="fl">上一页</div>
+                        <div class="fl">1</div>
+                        <div class="fl">下一页</div>
+                        <div class="fl">尾页</div>
+                        <div class="fl">
+                            <input type="text" value="1" name="yeshu">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--B:委托交易列表--->
+        <div id="wtjylb" class="mainPage">
+            <div class="pRow">
+                <div class="fl">
+                    会员信息<input type="text" name="会员信息" class="longInput"/>
+                </div>
+                <div class="fl">
+                    虚拟币类型：
+                    <select class="shortInput">
+                        <option value="all">全部</option>
+                    </select>
+                </div>
+                <div class="fl">
+                    日期<input type="text" name="日期" class="shortInput"/>
+                </div>
+                <div class="fl">
+                    价格<input type="text" name="价格" class="shortInput"/>
+                </div>
+                <div class="fl">
+                    状态：
+                    <select class="shortInput">
+                        <option value="all">全部</option>
+                    </select>
+                </div>
+                <div class="fl">
+                    会员类型：
+                    <select class="shortInput">
+                        <option value="all">全部</option>
+                    </select>
+                </div>                
+                <div class="chaxun">查询</div>
+            </div>
+            <div class="pRow">
+                <div class="mingling">
+                    <div class="mlIcon"></div>
+                    <div></div>
+                </div>
+            </div>
+            <div class="mPA">
+                <iframe src="mydata/ifraWZLB.html"></iframe>
+                <div class="tfooter acb">
+                    <div class="fl">
+                        总共<span>XX</span>条
+                    </div>
+                    <div class="fr acb">
+                        <div class="fl">首页</div>
+                        <div class="fl">上一页</div>
+                        <div class="fl">1</div>
+                        <div class="fl">下一页</div>
+                        <div class="fl">尾页</div>
+                        <div class="fl">
+                            <input type="text" value="1" name="yeshu">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--B:提问记录列表--->
+        <div id="twjllb" class="mainPage">
+            <div class="pRow">
+                <div class="fl">
+                    提问记录<input type="text" name="提问记录" class="longInput"/>
+                </div>
+                <div class="chaxun">查询</div>
+            </div>
+            <div class="pRow">
+                <div class="mingling">
+                    <div class="mlIcon chakan"></div>
+                    <div>查看</div>
+                </div>
+            </div>
+            <div class="mPA">
+                <iframe src="mydata/ifraWZLB.html"></iframe>
+                <div class="tfooter acb">
+                    <div class="fl">
+                        总共<span>XX</span>条
+                    </div>
+                    <div class="fr acb">
+                        <div class="fl">首页</div>
+                        <div class="fl">上一页</div>
+                        <div class="fl">1</div>
+                        <div class="fl">下一页</div>
+                        <div class="fl">尾页</div>
+                        <div class="fl">
+                            <input type="text" value="1" name="yeshu">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--B待回复提问列表:--->
+        <div id="dhftwlb" class="mainPage">
+            <div class="pRow">
+                <div class="fl">
+                    提问人<input type="text" name="提问人" class="longInput"/>
+                </div>
+                <div class="chaxun">查询</div>
+            </div>
+            <div class="pRow">
+                <div class="mingling">
+                    <div class="mlIcon huifu"></div>
+                    <div>回复</div>
+                </div>
+            </div>
+            <div class="mPA">
+                <iframe src="mydata/ifraWZLB.html"></iframe>
+                <div class="tfooter acb">
+                    <div class="fl">
+                        总共<span>XX</span>条
+                    </div>
+                    <div class="fr acb">
+                        <div class="fl">首页</div>
+                        <div class="fl">上一页</div>
+                        <div class="fl">1</div>
+                        <div class="fl">下一页</div>
+                        <div class="fl">尾页</div>
+                        <div class="fl">
+                            <input type="text" value="1" name="yeshu">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--B:会员注册统计表--->
+        <div id="hyzctjb" class="mainPage">
+            <div class="pRow">
+                <div class="fl">
+                    开始日期<input type="text" name="开始日期" class="longInput"/>
+                </div>
+                <div class="fl">
+                    结束日期<input type="text" name="结束日期" class="longInput"/>
+                </div>
+                <div class="chaxun">查询</div>
+            </div>
+            <div class="pRow">
+                <div class="mingling">
+                    <div class="mlIcon"></div>
+                    <div></div>
+                </div>
+            </div>
+            <div class="mPA">
+                <iframe src="mydata/ifraWZLB.html"></iframe>
+                <div class="tfooter acb">
+                    <div class="fl">
+                        总共<span>XX</span>条
+                    </div>
+                    <div class="fr acb">
+                        <div class="fl">首页</div>
+                        <div class="fl">上一页</div>
+                        <div class="fl">1</div>
+                        <div class="fl">下一页</div>
+                        <div class="fl">尾页</div>
+                        <div class="fl">
+                            <input type="text" value="1" name="yeshu">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--B:人民币充值统计表--->
+        <div id="rmbcztjb" class="mainPage">
+            <div class="pRow">
+               <div class="fl">
+                    开始日期<input type="text" name="开始日期" class="longInput"/>
+                </div>
+                <div class="fl">
+                    结束日期<input type="text" name="结束日期" class="longInput"/>
+                </div>
+                <div class="chaxun">查询</div>
+            </div>
+            <div class="pRow">
+                <div class="mingling">
+                    <div class="mlIcon"></div>
+                    <div></div>
+                </div>
+            </div>
+            <div class="mPA">
+                <iframe src="mydata/ifraWZLB.html"></iframe>
+                <div class="tfooter acb">
+                    <div class="fl">
+                        总共<span>XX</span>条
+                    </div>
+                    <div class="fr acb">
+                        <div class="fl">首页</div>
+                        <div class="fl">上一页</div>
+                        <div class="fl">1</div>
+                        <div class="fl">下一页</div>
+                        <div class="fl">尾页</div>
+                        <div class="fl">
+                            <input type="text" value="1" name="yeshu">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--B:人民币提现统计表--->
+        <div id="rmbtxtjb" class="mainPage">
+            <div class="pRow">
+                <div class="fl">
+                    开始日期<input type="text" name="开始日期" class="longInput"/>
+                </div>
+                <div class="fl">
+                    结束日期<input type="text" name="结束日期" class="longInput"/>
+                </div>
+                <div class="chaxun">查询</div>
+            </div>
+            <div class="pRow">
+                <div class="mingling">
+                    <div class="mlIcon"></div>
+                    <div></div>
+                </div>
+            </div>
+            <div class="mPA">
+                <iframe src="mydata/ifraWZLB.html"></iframe>
+                <div class="tfooter acb">
+                    <div class="fl">
+                        总共<span>XX</span>条
+                    </div>
+                    <div class="fr acb">
+                        <div class="fl">首页</div>
+                        <div class="fl">上一页</div>
+                        <div class="fl">下一页</div>
+                        <div class="fl">尾页</div>
+                        <div class="fl">
+                            <input type="text" value="1" name="yeshu">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--B:虚拟币充值统计表--->
+        <div id="xnbcztjb" class="mainPage">
+            <div class="pRow">
+                <div class="fl">
+                    开始日期<input type="text" name="开始日期" class="longInput"/>
+                </div>
+                <div class="fl">
+                    结束日期<input type="text" name="结束日期" class="longInput"/>
+                </div>
+                <div class="fl">
+                    虚拟币类型
+                    <select class="shortInput">
+                        <option value="all">全部</option>
+                    </select>
+                </div>
+                <div class="chaxun">查询</div>
+            </div>
+            <div class="pRow">
+                <div class="mingling">
+                    <div class="mlIcon"></div>
+                    <div></div>
+                </div>
+            </div>
+            <div class="mPA">
+                <iframe src="mydata/ifraWZLB.html"></iframe>
+                <div class="tfooter acb">
+                    <div class="fl">
+                        总共<span>XX</span>条
+                    </div>
+                    <div class="fr acb">
+                        <div class="fl">首页</div>
+                        <div class="fl">上一页</div>
+                        <div class="fl">1</div>
+                        <div class="fl">下一页</div>
+                        <div class="fl">尾页</div>
+                        <div class="fl">
+                            <input type="text" value="1" name="yeshu">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--B:虚拟币提现统计表--->
+        <div id="xnbtxtjb" class="mainPage">
+            <div class="pRow">
+                <div class="fl">
+                    开始日期<input type="text" name="开始日期" class="longInput"/>
+                </div>
+                <div class="fl">
+                    结束日期<input type="text" name="结束日期" class="longInput"/>
+                </div>
+                <div class="fl">
+                    虚拟币类型
+                    <select class="shortInput">
+                        <option value="all">全部</option>
+                    </select>
+                </div>
+                <div class="chaxun">查询</div>
+            </div>
+            <div class="pRow">
+                <div class="mingling">
+                    <div class="mlIcon"></div>
+                    <div></div>
+                </div>
+            </div>
+            <div class="mPA">
+                <iframe src="mydata/ifraWZLB.html"></iframe>
+                <div class="tfooter acb">
+                    <div class="fl">
+                        总共<span>XX</span>条
+                    </div>
+                    <div class="fr acb">
+                        <div class="fl">首页</div>
+                        <div class="fl">上一页</div>
+                        <div class="fl">1</div>
+                        <div class="fl">下一页</div>
+                        <div class="fl">尾页</div>
+                        <div class="fl">
+                            <input type="text" value="1" name="yeshu">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--B:综合统计表--->
+        <div id="zhtjb" class="mainPage">
+            <div class="pRow">
+                <div class="fl">
+                    <input type="text" name="" class=""/>
+                </div>
+                <div class="chaxun">查询</div>
+            </div>
+            <div class="pRow">
+                <div class="mingling">
+                    <div class="mlIcon"></div>
+                    <div></div>
+                </div>
+            </div>
+            <div class="mPA">
+                <iframe src="mydata/ifraWZLB.html"></iframe>
+                <div class="tfooter acb">
+                    <div class="fl">
+                        总共<span>XX</span>条
+                    </div>
+                    <div class="fr acb">
+                        <div class="fl">首页</div>
+                        <div class="fl">上一页</div>
+                        <div class="fl">1</div>
+                        <div class="fl">下一页</div>
+                        <div class="fl">尾页</div>
+                        <div class="fl">
+                            <input type="text" value="1" name="yeshu">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--B:友情链接记录表--->
+        <div id="yqljlb" class="mainPage">
+            <div class="pRow">
+                <div class="fl">
+                    关键词<input type="text" name="关键词" class="longInput"/>
+                    <span class="small">
+                        (名称、URL)
+                    </span>
+                </div>
+                <div class="chaxun">查询</div>
+            </div>
+            <div class="pRow">
+                <div class="mingling">
+                    <div class="mlIcon xinzeng"></div>
+                    <div>新增</div>
+                </div>
+                <div class="mingling">
+                    <div class="mlIcon shanchu"></div>
+                    <div>删除</div>
+                </div>
+                <div class="mingling">
+                    <div class="mlIcon xiugai"></div>
+                    <div>修改</div>
+                </div>                
+            </div>
+            <div class="mPA">
+                <iframe src="mydata/ifraWZLB.html"></iframe>
+                <div class="tfooter acb">
+                    <div class="fl">
+                        总共<span>XX</span>条
+                    </div>
+                    <div class="fr acb">
+                        <div class="fl">首页</div>
+                        <div class="fl">上一页</div>
+                        <div class="fl">1</div>
+                        <div class="fl">下一页</div>
+                        <div class="fl">尾页</div>
+                        <div class="fl">
+                            <input type="text" value="1" name="yeshu">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--B:系统参数列表--->
+        <div id="xtcslb" class="mainPage">
+            <div class="pRow">
+                <div class="fl">
+                    KEY<input type="text" name="KEY" class="longInput"/>
+                </div>
+                <div class="chaxun">查询</div>
+            </div>
+            <div class="pRow">
+                <div class="mingling">
+                    <div class="mlIcon xinzeng"></div>
+                    <div>新增</div>
+                </div>
+                <div class="mingling">
+                    <div class="mlIcon xiugai"></div>
+                    <div>修改</div>
+                </div>               
+            </div>
+            <div class="mPA">
+                <iframe src="mydata/ifraWZLB.html"></iframe>
+                <div class="tfooter acb">
+                    <div class="fl">
+                        总共<span>XX</span>条
+                    </div>
+                    <div class="fr acb">
+                        <div class="fl">首页</div>
+                        <div class="fl">上一页</div>
+                        <div class="fl">1</div>
+                        <div class="fl">下一页</div>
+                        <div class="fl">尾页</div>
+                        <div class="fl">
+                            <input type="text" value="1" name="yeshu">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--B:银行账户列表--->
+        <div id="yhzhlb" class="mainPage">
+            <div class="pRow">
+                <div class="fl">
+                    标题<input type="text" name="标题" class="longInput"/>
+                </div>
+                <div class="chaxun">查询</div>
+            </div>
+            <div class="pRow">
+                <div class="mingling">
+                    <div class="mlIcon xinzeng"></div>
+                    <div>新增</div>
+                </div>
+                <div class="mingling">
+                    <div class="mlIcon jinyong"></div>
+                    <div>禁用</div>
+                </div>
+                <div class="mingling">
+                    <div class="mlIcon qiyong"></div>
+                    <div>启用</div>
+                </div>                
+            </div>
+            <div class="mPA">
+                <iframe src="mydata/ifraWZLB.html"></iframe>
+                <div class="tfooter acb">
+                    <div class="fl">
+                        总共<span>XX</span>条
+                    </div>
+                    <div class="fr acb">
+                        <div class="fl">首页</div>
+                        <div class="fl">上一页</div>
+                        <div class="fl">1</div>
+                        <div class="fl">下一页</div>
+                        <div class="fl">尾页</div>
+                        <div class="fl">
+                            <input type="text" value="1" name="yeshu">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--B:关于我们--->
+        <div id="gywm" class="mainPage">
+            <div class="pRow">
+                <div class="fl">
+                    标题<input type="text" name="标题" class="longInput"/>
+                </div>
+                <div class="chaxun">查询</div>
+            </div>
+            <div class="pRow">
+                <div class="mingling">
+                    <div class="mlIcon xiugai"></div>
+                    <div>修改</div>
+                </div>
+            </div>
+            <div class="mPA">
+                <iframe src="mydata/ifraWZLB.html"></iframe>
+                <div class="tfooter acb">
+                    <div class="fl">
+                        总共<span>XX</span>条
+                    </div>
+                    <div class="fr acb">
+                        <div class="fl">首页</div>
+                        <div class="fl">上一页</div>
+                        <div class="fl">1</div>
+                        <div class="fl">下一页</div>
+                        <div class="fl">尾页</div>
+                        <div class="fl">
+                            <input type="text" value="1" name="yeshu">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--B:权限列表--->
+        <div id="qxlb" class="mainPage"><!--图片有点问题-->
+            <div class="pRow">
+                <div class="fl">
+                    权限名称<input type="text" name="权限名称" class="longInput"/>
+                </div>
+                <div class="chaxun">查询</div>
+            </div>
+            <div class="pRow">
+                <div class="mingling">
+                    <div class="mlIcon xinzeng"></div>
+                    <div>新增</div>
+                </div>
+                <div class="mingling">
+                    <div class="mlIcon shanchu"></div>
+                    <div>删除</div>
+                </div>
+                <div class="mingling">
+                    <div class="mlIcon xiugai"></div>
+                    <div>修改</div>
+                </div>
+            </div>
+            <div class="mPA">
+                <iframe src="mydata/ifraWZLB.html"></iframe>
+                <div class="tfooter acb">
+                    <div class="fl">
+                        总共<span>XX</span>条
+                    </div>
+                    <div class="fr acb">
+                        <div class="fl">首页</div>
+                        <div class="fl">上一页</div>
+                        <div class="fl">1</div>
+                        <div class="fl">下一页</div>
+                        <div class="fl">尾页</div>
+                        <div class="fl">
+                            <input type="text" value="1" name="yeshu">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--B:角色列表--->
+        <div id="jslb" class="mainPage">
+            <div class="pRow">
+                <div class="fl">
+                    角色名称<input type="text" name="角色名称" class="longInput"/>
+                </div>
+                <div class="chaxun">查询</div>
+            </div>
+            <div class="pRow">
+                <div class="mingling">
+                    <div class="mlIcon xinzeng"></div>
+                    <div>新增</div>
+                </div>
+                <div class="mingling">
+                    <div class="mlIcon xiugai"></div>
+                    <div>修改</div>
+                </div>
+            </div>
+            <div class="mPA">
+                <iframe src="mydata/ifraWZLB.html"></iframe>
+                <div class="tfooter acb">
+                    <div class="fl">
+                        总共<span>XX</span>条
+                    </div>
+                    <div class="fr acb">
+                        <div class="fl">首页</div>
+                        <div class="fl">上一页</div>
+                        <div class="fl">1</div>
+                        <div class="fl">下一页</div>
+                        <div class="fl">尾页</div>
+                        <div class="fl">
+                            <input type="text" value="1" name="yeshu">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--B:管理员列表--->
+        <div id="glylb" class="mainPage">
+            <div class="pRow">
+                <div class="fl">
+                    管理员名称<input type="text" name="管理员名称" class="longInput"/>
+                </div>
+                <div class="chaxun">查询</div>
+            </div>
+            <div class="pRow">
+                <div class="mingling">
+                    <div class="mlIcon xinzeng"></div>
+                    <div>新增</div>
+                </div>
+                <div class="mingling">
+                    <div class="mlIcon jinyong"></div>
+                    <div>禁用</div>
+                </div>
+                <div class="mingling">
+                    <div class="mlIcon quxiaojinyong"></div>
+                    <div>取消禁用</div>
+                </div>
+                <div class="mingling">
+                    <div class="mlIcon  chongshemima"></div>
+                    <div>修改密码</div>
+                </div>
+                <div class="mingling">
+                    <div class="mlIcon xiugai"></div>
+                    <div>修改角色</div>
+                </div>                
+            </div>
+            <div class="mPA">
+                <iframe src="mydata/ifraWZLB.html"></iframe>
+                <div class="tfooter acb">
+                    <div class="fl">
+                        总共<span>XX</span>条
+                    </div>
+                    <div class="fr acb">
+                        <div class="fl">首页</div>
+                        <div class="fl">上一页</div>
+                        <div class="fl">1</div>
+                        <div class="fl">下一页</div>
+                        <div class="fl">尾页</div>
+                        <div class="fl">
+                            <input type="text" value="1" name="yeshu">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--B:限制管理列表--->
+        <div id="xzgllb" class="mainPage">
+            <div class="pRow">
+                <div class="fl">
+                    IP地址<input type="text" name="IP地址" class="longInput"/>
+                </div>
+                <div class="chaxun">查询</div>
+            </div>
+            <div class="pRow">
+                <div class="mingling">
+                    <div class="mlIcon jiechuxianzhi"></div>
+                    <div>解除限制</div>
+                </div>
+            </div>
+            <div class="mPA">
+                <iframe src="mydata/ifraWZLB.html"></iframe>
+                <div class="tfooter acb">
+                    <div class="fl">
+                        总共<span>XX</span>条
+                    </div>
+                    <div class="fr acb">
+                        <div class="fl">首页</div>
+                        <div class="fl">上一页</div>
+                        <div class="fl">1</div>
+                        <div class="fl">下一页</div>
+                        <div class="fl">尾页</div>
+                        <div class="fl">
+                            <input type="text" value="1" name="yeshu">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--B:分红-->
+        <div id="fenhong" class="mainPage">
+            <div class="mPA">
+                <form class="smlfm" action="">
+                    <fieldset> 
+                        <legend>
+                            <select id="fhdecision">
+                                <option value="ug" selected="selected">UG分红</option>
+                                <option value="rmb">人民币分红</option>
+                            </select>
+                        </legend>
+                        <div id="selUG" class="vsel">
+                        <div class="frow">
+                            <input type="radio" name="fenhongfangshi" value="自定义" id="inputUGzdy" class="zdysel"/>
+                            <label for="inputUGzdy">自定义</label> 
+                            <input type="radio" name="fenhongfangshi" value="手续费" checked="checked" id="inputsxf"/>
+                            <label for="inputsxf">手续费</label>
+                        </div>
+                        <div id="nameUG" class="frow">
+                            请输入金额: <input type="text" class="inputBlank" value="" name="UG" /> UG
+                        </div>
+                        </div>
+                        <div id="selRMB" class="vsel">
+                        <div class="frow">
+                            <input type="radio" name="fenhongfangshirmb" value="自定义" id="inputRMBzdy" class="zdysel"/>
+                            <label for="inputRMBzdy">自定义</label> 
+                            <input type="radio" name="fenhongfangshirmb" value="手续费" checked="checked" id="inputRMBsxf"/>
+                            <label for="inputRMBsxf">手续费</label>
+                        </div>
+                        <div id="nameRMB" class="frow">
+                            请输入金额：￥ <input type="text" class="inputBlank" value="" name="RMB" > 元
+                        </div>
+                        </div>
+                    </fieldset>
+                    <input type="submit" class="mbtn" value="确认并提交">
+                </form>
+            </div>
+        </div>
+        <div id="yqjl" class="mainPage">
+            <div class="mPA">
+                <form class="smlfm" action="">
+                    <fieldset>
+                        <legend>邀请奖励：是否</legend>
+                        <div class="frow">
+                            <input type="radio" name="yqjl-ug" value="yes" id="yqUGyes">
+                            <label for="yqUGyes">是</label>
+                            <input type="radio" name="yqjl-ug" checked="checked" value="no" id="yqUGno">
+                            <label for="yqUGno">否</label>
+                     </div>
+                    </fieldset>
+                    
+                    <fieldset>
+                        <legend>充值奖励：是否</legend>
+                        <div class="frow">
+                            <input type="radio" name="czjl-ug" value="yes" id="czUGyes">
+                            <label for="czUGyes">是</label>
+                            <input type="radio" name="czjl-ug" checked="checked" value="no" id="czUGno">
+                            <label for="czUGno">否</label>
+                        </div>
+                    </fieldset>
+                    
+                    <fieldset>
+                        <legend>认购奖励是否</legend>
+                        <div class="frow">
+                            <input type="radio" name="rgjl-ug" value="yes" id="rgugyes">
+                            <label for="rgugyes">是</label>
+                            <input type="radio" name="rgjl-ug"  checked="checked" value="no" id="rgugno">
+                            <label for="rgugno">否</label>
+                        </div>
+                    </fieldset>
+                    
+                    <fieldset>
+                        <legend>交易奖励：是否</legend>
+                        <div class="frow">
+                            <input type="radio" name="jyjl-ug" value="yes" id="all">
+                            <label for="all">全选</label>
+                            <input type="radio" name="jyjl-ug" value="yes" id="onlym3j">
+                            <label for="onlym3j">奖励依据：买家的手续费</label>
+                            <input type="radio" name="jyjl-ug" value="yes" id="onlym4j">
+                            <label for="onlym4j">奖励依据：卖家的手续费</label> 
+                            <input type="radio" name="jyjl-ug"  checked="checked" value="no" id="allnot">
+                            <label for="allnot">全不选</label>
+                     </div>
+                    </fieldset>
+                    
+                    <input type="submit" class="mbtn" value="确认并提交">
+                </form>
+            </div>
+        </div>        
+        <!--END:已选项目页面-->
+        <div class="rpB">管理后台</div>
+    </div>
+</div>
+<script src="js/jquery-1.8.3.min.js" type="text/javascript"></script>
+<script src="js/admin.js" type="text/javascript"></script>
+<script src="js/fehong.js" type="text/javascript"></script>
+</body>
+</html>
